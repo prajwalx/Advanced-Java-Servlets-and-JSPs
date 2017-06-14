@@ -1,0 +1,16 @@
+<web-app>
+
+<context-param>
+<param-name>lcount</param-name>
+<param-value>0</param-value>
+</context-param>
+
+<servlet>
+<servlet-name>logcount</servlet-name>
+<servlet-class>clsLoginCountServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>logcount</servlet-name>
+<url-pattern>/loginCount</url-pattern>
+</servlet-mapping>
+</web-app>
