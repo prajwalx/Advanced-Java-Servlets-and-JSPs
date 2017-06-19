@@ -1,0 +1,23 @@
+<web-app>
+
+<servlet>
+ <servlet-name>reqDsp</servlet-name>
+ <servlet-class>ClsRequestDispatcher</servlet-class>
+</servlet>
+
+<servlet>
+ <servlet-name>vld</servlet-name>
+ <servlet-class>ClsValidUserServlet</servlet-class>
+</servlet> 
+
+<servlet-mapping>
+ <servlet-name>reqDsp</servlet-name>
+ <url-pattern>/ReqDispatcher</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+ <servlet-name>vld</servlet-name>
+ <url-pattern>/Valid</url-pattern>
+</servlet-mapping>
+
+</web-app>
