@@ -1,0 +1,17 @@
+<taglib>
+      <tlib-version>1.2</tlib-version>
+	  <jspversion>2.0</jspversion>
+	  <tag>
+	     <name>CustomTag</name>
+		 <tag-class>pkgCustomTag.ClsCustomTag</tag-class>
+		 
+		 <attribute>
+		 
+		 <name>count</name>
+		 <required>true</required>
+		 <rtexprvalue>true</rtexprvalue>
+		 
+		 </attribute>	 
+		 
+	  </tag>	 
+</taglib>
